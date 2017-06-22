@@ -1,0 +1,165 @@
+#siteList
+{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 25%;
+}
+
+#searchArea
+{
+    margin-top: 5px;
+    margin-left: 45%;
+    margin-right: 30%;
+}
+
+a
+{
+    text-decoration: none;
+    color: #303030;
+}
+
+.icon
+{
+    width: 50px;
+}
+
+h2
+{
+    margin: 0px;
+    font-weight: bold;
+}
+
+h3
+{
+    display: inline;
+    padding-right: 8px;
+}
+
+#amazon > .panel-heading
+{
+    background: #ff930f;
+}
+
+#ebay > .panel-heading
+{
+    background: #F4FA58;
+}
+
+#gmail > .panel-heading
+{
+    background: #f94531;
+}
+
+#wallapop > .panel-heading
+{
+    background: #37d8ba;
+}
+
+#merkandi > .panel-heading
+{
+    background: #353cff;
+}
+
+#milanuncios > .panel-heading
+{
+    background: #3e962e;
+}
+
+#twitter > .panel-heading
+{
+    background: #58e3e8;
+}
+
+#banahosting > .panel-heading
+{
+    background: #68ad30;
+}
+
+#gmproductos > .panel-heading
+{
+    background: #387dff;
+}
+
+#lotestock > .panel-heading 
+{
+    background: #2c5199;
+}
+
+#honest > .panel-heading 
+{
+    background: #870000;
+    color: white;
+}
+
+#facebook > .panel-heading
+{
+    background: #707def;
+}
+
+#mailrelay > .panel-heading
+{
+    background: #091528;
+    color: white;
+}
+
+.panel-body
+{
+    font-style: italic;
+    padding: 2px;
+}
+
+.panel-body > p
+{
+    margin: 0px;
+}
+
+.glyphicon-arrow-right
+{
+    float: right;
+    margin-top: 5px;
+}
+
+.glyphicon-paperclip
+{
+    float: right;
+}
+
+.list-group li
+{
+    padding: 0px;
+}
+.list-group li a 
+{ 
+    display: block;
+}
+
+.list-group-item:hover
+{
+    background: #31708f;
+    cursor: pointer;
+}
+
+#credentials
+{
+    position: fixed;
+    right: 5px;
+    top: 20px;
+    width: 12em;
+}
+
+@media (max-width: 830px) 
+{
+  #siteList 
+  {
+    float: left;
+    margin-left: 5%;
+    margin-right: 0px;
+  }
+  #searchArea
+  {
+    float: left;
+    width: 30%;
+    margin-left: 7%;
+  }
+}

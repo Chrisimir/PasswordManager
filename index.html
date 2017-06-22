@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Gestión de contraseñas</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Added styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Login data box -->
+    <div id="credentials"></div>
+
+    <!-- Search bar -->
+    <div id="searchArea">
+    <input type="text" class="form-control" id="searchBar" placeholder="Busca aquí" name="busqueda">
+    </div>
+
+    <!-- AMAZON -->
+    <div id="siteList">
+        <div class="panel panel-default site" id="amazon">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    Amazon
+                    <img src="http://icons.iconarchive.com/icons/uiconstock/e-commerce/256/amazon-icon.png" 
+                    alt="Amazon icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página para la venta a particulares</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+
+            </ul>
+        </div>
+
+        <!--EBAY -->
+        <div class="panel panel-default site" id="ebay">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    Ebay
+                    <img src="http://icons.iconarchive.com/icons/uiconstock/e-commerce/256/ebay-icon.png" 
+                    alt="Ebay icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página para la venta a particulares</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- GMAIL -->
+        <div class="panel panel-default site" id="gmail">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    Gmail
+                    <img src="http://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/256/MetroUI-Google-plus-Alt-icon.png" 
+                    alt="Gmail icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página de correos</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">gexitlive@gmail.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- WALLAPOP -->
+        <div class="panel panel-default site" id="wallapop">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    Wallapop
+                    <img src="http://cdn.marketplaceimages.windowsphone.com/v8/images/1541f4ac-2fc6-43b4-9c18-24b7625d2ae6?imageType=ws_icon_small" 
+                    alt="Wallapop icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página de venta particular</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- MERKANDI -->
+        <div class="panel panel-default site" id="merkandi">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    Merkandi
+                    <img src="https://pbs.twimg.com/profile_images/516840344072114176/nEBFwx8r_400x400.jpeg" 
+                    alt="Merkandi icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página de venta</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- MILANUNCIOS -->
+        <div class="panel panel-default site" id="milanuncios">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    Milanuncios
+                    <img src="https://yt3.ggpht.com/-4_r9x6sJwfc/AAAAAAAAAAI/AAAAAAAAAAA/nm1g1cYu3fE/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" 
+                    alt="Milanuncios icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página de venta</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- TWITTER -->
+        <div class="panel panel-default site" id="twitter">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    Twitter
+                    <img src="http://icons.iconarchive.com/icons/danleech/simple/256/twitter-icon.png" 
+                    alt="Twitter icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página de venta</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- BANAHOSTING -->
+        <div class="panel panel-default site" id="banahosting">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    Banahosting
+                    <img src="http://buenoshostings.com/wp-content/uploads/2015/06/banahosting.jpg" 
+                    alt="Banahosting icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página de alojamiento web</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- GMPRODUCTOS -->
+        <div class="panel panel-default site" id="gmproductos">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    GMproductos
+                    <img src="http://gmproductos.com/img/gm-productos-1419337688.jpg" 
+                    alt="GMproductos icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página de ventas online</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- LOTESTOCK -->
+        <div class="panel panel-default site" id="lotestock">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    LoteStock
+                    <img src="http://lotestock.com/wp-content/uploads/2016/12/logo2.png" 
+                    alt="lotestock icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página de ventas online</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- HONEST -->
+        <div class="panel panel-default site" id="honest">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    HonestAppliances
+                    <img src="http://honestappliances.com/wp-content/uploads/2016/08/Hblanco.png" 
+                    alt="honestappliances icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página de ventas online</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- AUTOROLA -->
+        <div class="panel panel-default site" id="autorola">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    Autorola
+                    <img src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAATNAAAAJGYwN2UxYmRjLTBiMTItNDQyZC04ZGZhLWEwNTU4NzI4YWRhMQ.png" 
+                    alt="autorola icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página de subastas de coche</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- FACEBOOK -->
+        <div class="panel panel-default site" id="facebook">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    Facebook
+                    <img src="https://www.facebook.com/images/fb_icon_325x325.png" 
+                    alt="facebook icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página de subastas de coche</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- MAILRELAY -->
+        <div class="panel panel-default site" id="mailrelay">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <h2>
+                    Mailrelay
+                    <img src="https://pbs.twimg.com/profile_images/463994444488777729/AnB5nG88.png" 
+                    alt="Mailrelay icon"
+                    class="icon">
+                </h2> 
+            </div>
+            <div class="panel-body">
+                <p>Página para enviar correos</p>
+            </div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h3>Honest</h3>
+                    <span class="user">info@honestappliances.com</span>
+                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="clipboard.js-master/dist/clipboard.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
